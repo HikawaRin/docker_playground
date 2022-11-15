@@ -8,5 +8,5 @@ For GUI application, prepare the `X Windows System` on the host machine, then ad
 `DISPLAY` to container environment like this:
 
 ```bash
-expert DISPLAY=<your host machine IP address>
+export DISPLAY=<your host machine IP address>
 ```
